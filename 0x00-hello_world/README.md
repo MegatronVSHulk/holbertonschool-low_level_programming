@@ -1,2 +1,2 @@
-# We are starting the journey of C!
-This is exciting!
+# holbertonschool-low_level_programming
+Begin programming C!
