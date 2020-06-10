@@ -1,12 +1,10 @@
 #include<stdio.h>
-int main()
-{
+int main() {
   int intSize;
   char charSize;
   long int LongIntSize;
   long long int LLIS;
   float floatSize;
-
   printf("Size of char: %ld bytes\n", sizeof(charSize));
   printf("Size of an int: %ld bytes\n", sizeof(intSize));
   printf("Size of a long int: %ld bytes\n", sizeof(LongIntSize));
