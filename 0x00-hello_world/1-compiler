@@ -1,2 +1,2 @@
-#/bin/bash
+#!/bin/bash
 NEW=$(echo $CFILE | head -c -1) && NCF="${NEW}o" && gcc $CFILE -S >> $NCF
