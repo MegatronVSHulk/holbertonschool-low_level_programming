@@ -1,5 +1,9 @@
 #include <stdio.h>
-/* COMMENT */
+/**
+ * Main - Primary function being executed
+(*
+ * Description: Prints number 0 - 9 in ascending order
+**/
 int main(void)
 {
   int COUNT;
