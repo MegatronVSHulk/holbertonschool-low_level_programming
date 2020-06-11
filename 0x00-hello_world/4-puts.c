@@ -1,6 +1,6 @@
-/* first program using puts */
+/* first program using puts 
 * 
-/* Func Main - puts text on screen */
+* Func Main - puts text on screen */
 
 int main() {
   /* file puts the string into the terminal */
