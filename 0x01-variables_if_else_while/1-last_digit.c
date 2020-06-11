@@ -1,7 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* betty style doc for function main goes there */
+/* Main - The primary function being carried out
+(*
+ * Description: The integer variable 'n' which is
+ * stapled to integer variable RESULT. RESULT is used
+ * in coordination with the 3 IF/THEN statements that 
+ * weight its value against 0, 5, and 6.
+**/
 int main(void)
 {
   int n;
