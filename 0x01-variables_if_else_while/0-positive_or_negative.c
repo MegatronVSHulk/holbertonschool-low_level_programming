@@ -2,11 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 /* Main - Generates a random number
-(*
+(* a blank line
  * Description: Integer generated that is sometimes
- * positive and sometimes negative. The program detects
- * if the output integer is negative or positive then 
- * print the strong to the terminal.
+ * positive and sometimes negative. 
+(* a blank line
+ * Return: 0
 **/
 int main(void)
 {
@@ -16,7 +16,8 @@ int main(void)
   if (n = 0){
     printf("%d", n);
     printf(" is zero");
-  } else {
+  } else 
+  {
     if (n < 0){
       printf("%d", n);
       printf(" is negative");
