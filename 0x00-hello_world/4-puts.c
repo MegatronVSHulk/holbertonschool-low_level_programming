@@ -3,6 +3,7 @@
 *
 * Description: pushes string to the terminal console
 * 
+* Returns 0
 */
 #include<stdio.h>
 int main(void) 
