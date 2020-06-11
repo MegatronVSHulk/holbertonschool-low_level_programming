@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+/* comments */
+
+int main(void)
+{
+  char LETTER;
+  for(LETTER = 'z'; LETTER >= 'a'; LETTER--){
+    putchar(LETTER);
+  }
+  return (0);
+}

@@ -1,0 +1,15 @@
+#include <stdio.h>
+/*comment*/
+int main(void)
+{
+  int NUMBER;
+  NUMBER = 0;
+  for(NUMBER = 0; NUMBER <= 16; NUMBER++)
+  {
+    int NUM;
+    NUM = ("%x", NUMBER);
+    printf("%d", NUM);
+  }
+  putchar('\n');
+  return (0);
+}
