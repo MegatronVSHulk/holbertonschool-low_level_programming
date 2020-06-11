@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
 * main - function puts the string to the console
 *
