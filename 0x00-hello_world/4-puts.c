@@ -1,4 +1,4 @@
-/* 
+/**
 * main - function puts the string to the console
 *
 * Description: the function main writes the string into the terminal
