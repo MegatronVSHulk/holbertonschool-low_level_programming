@@ -31,17 +31,21 @@ int main(void)
    * statements will print the cooresponding 
    * string.
    */
-  if (RESULT > 5){
+  if (RESULT > 5)
+  {
     /* If last digit, RESULT, is greater than 5 */
-    printf(" and is greater than 5\n");
+    printf(" and is greater than 5");
   }
-  if (RESULT = 0){
+  if (RESULT = 0)
+  {
     /* If last digit, RESULT, is zero */
-    printf(" and is 0\n");
+    printf(" and is 0");
   }
-  if (RESULT < 6 && RESULT != 0){
+  if (RESULT < 6 && RESULT != 0)
+  {
     /* If last digit, RESULT, is less than 6 and not 0 */
-    printf(" and is less than 6 and not 0\n");
-  } 
+    printf(" and is less than 6 and not 0");
+  }
+  putchar('\n');
   return (0);
 }
