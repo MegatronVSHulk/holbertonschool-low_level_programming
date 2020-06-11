@@ -4,6 +4,7 @@
 * Description: pushes string to the terminal console
 * 
 */
+#include<stdio.h>
 int main() 
 {
   puts("\"Programming is like building a multilingual puzzle");
