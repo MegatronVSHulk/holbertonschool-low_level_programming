@@ -1,7 +1,9 @@
 #include <stdio.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/**
+ * Main - Primary function being executed
+(*
+ * Description: Prints the number 0-9, ascending order
+**/
 int main(void)
 {
 	int NUMBER;
