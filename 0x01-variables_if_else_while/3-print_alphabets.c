@@ -1,6 +1,9 @@
 #include <stdio.h>
-
-/* betty style doc for function main goes there */
+/**
+ * Main - Primary function being executed
+(*
+ * Description: Prints entire alphabet twice, lowercase then uppercase
+**/
 int main(void)
 {
   char CASEBIG;
