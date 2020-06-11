@@ -3,9 +3,10 @@
 *
 * Description: the function main writes the string into the terminal
 *
-* Return: 0
+* Return: returns 0
+*
 */
-#include<stdio.h>
+#include <stdio.h>
 int main(void) 
 {
 puts("\"Programming is like building a multilingual puzzle");
