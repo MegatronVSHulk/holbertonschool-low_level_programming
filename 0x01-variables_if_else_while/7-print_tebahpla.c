@@ -1,5 +1,9 @@
 #include <stdio.h>
-/* comments */
+/**
+ * Main - Primary function being executed
+(*
+ * Description: Prints entire alphabet, lowercase, in reverse
+**/
 int main(void)
 {
   char LETTER;
