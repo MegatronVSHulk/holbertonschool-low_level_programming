@@ -21,6 +21,7 @@ int main(void)
    * by the string " is " and the RESULT.
    */
   int RESULT;
+  int pRESULT;
   RESULT = (n % 10);
   printf("%d", n);
   printf(" is ");
@@ -31,17 +32,18 @@ int main(void)
    * statements will print the cooresponding 
    * string.
    */
-  if (RESULT > 5)
+  pRESULT = (RESULT + '0');
+  if (pRESULT > 5)
   {
     /* If last digit, RESULT, is greater than 5 */
     printf(" and is greater than 5");
   }
-  if (RESULT = 0)
+  if (pRESULT = 0)
   {
     /* If last digit, RESULT, is zero */
     printf(" and is 0");
   }
-  if (RESULT < 6 && RESULT != 0)
+  if (pRESULT < 6 && RESULT != 0)
   {
     /* If last digit, RESULT, is less than 6 and not 0 */
     printf(" and is less than 6 and not 0");
