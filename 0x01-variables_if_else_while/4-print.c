@@ -1,6 +1,11 @@
 #include <stdio.h>
-
-/* betty style doc for function main goes there */
+/**
+ * Main - Primary function being executed
+(*
+ * Description: Prints entire alphabet, lowercase, excludes
+ * the letter 'e' and 'q' with an IF statement existing within
+ * the FOR statement.
+**/
 int main(void)
 {
   char letter;
