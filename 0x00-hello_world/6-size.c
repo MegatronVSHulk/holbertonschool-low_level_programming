@@ -5,9 +5,7 @@
  * @charSize: Second operand
  * @LongIntSize: Third operand
  * @LLIS: Forth final operand
-(* a blank line
  * Description: the function main writes the string into the terminal
-(* a blank line
  * Return: returns 0
  *
  */
