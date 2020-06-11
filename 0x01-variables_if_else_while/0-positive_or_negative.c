@@ -1,9 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/* Main - Generates a random number
+(*
+ * Description: Integer generated that is sometimes
+ * positive and sometimes negative. The program detects
+ * if the output integer is negative or positive then 
+ * print the strong to the terminal.
+**/
 int main(void)
 {
   int n;
