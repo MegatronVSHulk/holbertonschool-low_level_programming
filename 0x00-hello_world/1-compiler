@@ -1,2 +1,2 @@
 #!/bin/bash
-NEW=$($CFILE | head -c -1) && NEW="${NEW}o" && gcc $CFILE -S -o $NEW
+NEW=$(echo $CFILE | head -c -1) && NEW="${NEW}o" && gcc $CFILE -S -o $NEW
