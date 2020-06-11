@@ -1,9 +1,6 @@
 /* 
-* Main - function puts the string to the console
+* main - function puts the string to the console
 *
-* Description: pushes string to the terminal console
-* 
-* Returns 0
 */
 #include<stdio.h>
 int main() 
