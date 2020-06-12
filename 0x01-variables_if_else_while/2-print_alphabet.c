@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-/* Main - Primary function being executed
+/* 
+* Main - Primary function being executed
 * a blank line
 * Description: Prints entire alphabet, lowercase
 * Return: 0
