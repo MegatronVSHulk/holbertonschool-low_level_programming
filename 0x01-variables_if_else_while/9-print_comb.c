@@ -1,8 +1,8 @@
 #include <stdio.h>
 /*
 * Main - Primary function being executed
-* Description: @COUNT initiates at 0 and is used to count up to 9.
-* Return: 0
+*Description: @COUNT initiates at 0 and is used to count up to 9.
+*Return: 0
 **/
 int main(void)
 {

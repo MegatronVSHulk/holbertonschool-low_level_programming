@@ -1,7 +1,8 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* Main - Generates a random number
+/*
+* Main - Generates a random number
 * a blank line
 * Description: Integer generated that is sometimes
 * positive and sometimes negative.
@@ -16,11 +17,13 @@ if (n == 0)
 {
 printf("%d", n);
 printf(" is zero");
-} else if (n < 0)
+}
+else if (n < 0)
 {
 printf("%d", n);
 printf(" is negative");
-} else if (n > 0)
+}
+else if (n > 0)
 {
 printf("%d", n);
 printf(" is positive\n");
