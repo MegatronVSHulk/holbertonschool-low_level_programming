@@ -6,14 +6,13 @@
 int main(void)
 {
 char CASEBIG;
-char CASESMALL;
 for(CASESMALL = 'a'; CASESMALL <= 'z'; CASESMALL++)
 {
 putchar(CASESMALL);
 }
-for(CASEBIG = 'A'; CASEBIG <= 'Z'; CASEBIG++)
+for(CASESMALL = 'A'; CASESMALL <= 'Z'; CASESMALL++)
 {
-putchar(CASEBIG);
+putchar(CASESMALL);
 }
 putchar('\n');
 return (0);
