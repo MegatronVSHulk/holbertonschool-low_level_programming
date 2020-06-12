@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-/** Main - Primary function being executed
-(*
+/**
+ *Main - Primary function being executed
  * Description: Integer variable COUNT is declared. COUNT is
  * given initial value of 00. We then start with a For Loop that 
  * continues as long as COUNT is less than or equal to 99. There
