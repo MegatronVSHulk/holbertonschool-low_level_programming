@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /** Main - Primary function being executed
 (*
  * Description: Integer variable COUNT is declared. COUNT is
@@ -8,6 +9,7 @@
  * and space are needed, or if the program is complete and ready
  * to create a new line upon ending
 */
+
 int main(void)
 {
   int COUNT;
