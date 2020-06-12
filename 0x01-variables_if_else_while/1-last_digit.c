@@ -1,6 +1,6 @@
-#include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+#include <stdlib.h>
 /* Main - The primary function being carried out
 (* a blank line
  * Description: The integer variable 'n' which is
