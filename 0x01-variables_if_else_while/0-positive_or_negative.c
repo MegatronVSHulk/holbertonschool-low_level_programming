@@ -4,7 +4,8 @@
 /* Main - Generates a random number
 (* a blank line
  * Description: Integer generated that is sometimes
- * positive and sometimes negative. 
+ * positive and sometimes negative.
+ * Return: 0
 **/
 int main(void)
 {
@@ -23,6 +24,6 @@ int main(void)
       printf("%d", n);
       printf(" is positive\n");
     }
-  }   
+  }
   return (0);
 }
