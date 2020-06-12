@@ -19,12 +19,10 @@ RESULT = n % 10;
 if (RESULT > 5)
 {
 printf("The last digit of %d is %d and is greater than 5\n", n, RESULT);
-}
-if (RESULT == 0)
+} else if (RESULT == 0)
 {
 printf("The last digit of %d is %d and is 0\n", n, RESULT);
-}
-if (RESULT < 6 && RESULT != 0)
+} else if (RESULT < 6 && RESULT != 0)
 {
 printf("The last digit of %d is %d and is less than 6 and not 0\n", n, RESULT);
 }
