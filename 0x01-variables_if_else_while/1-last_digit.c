@@ -22,7 +22,7 @@ int main(void)
    */
   int RESULT;
   int pRESULT;
-  RESULT = (n % 10);
+  RESULT = n % 10;
   printf("%d", n);
   printf(" is ");
   printf("%d", RESULT);
