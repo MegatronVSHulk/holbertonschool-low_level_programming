@@ -5,7 +5,7 @@
 **/
 int main(void)
 {
-char CASEBIG;
+char CASESMALL;
 for(CASESMALL = 'a'; CASESMALL <= 'z'; CASESMALL++)
 {
 putchar(CASESMALL);
