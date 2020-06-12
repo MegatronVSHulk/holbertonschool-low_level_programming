@@ -7,7 +7,7 @@
  * is an IF/ELSE statement that helps determine if another comma 
  * and space are needed, or if the program is complete and ready
  * to create a new line upon ending
-**/
+*/
 int main(void)
 {
   int COUNT;
