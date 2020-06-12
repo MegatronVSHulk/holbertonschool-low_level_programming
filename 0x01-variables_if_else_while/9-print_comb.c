@@ -2,7 +2,7 @@
 /**
 *Main - Primary function being executed
 *
-* Return: 0
+*Return: 0
 **/
 int main(void)
 {
