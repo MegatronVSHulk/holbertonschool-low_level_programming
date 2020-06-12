@@ -1,5 +1,5 @@
 #include <stdio.h>
-/**
+/*
  * Main - Primary function being executed
  * a blank line
  * Description: Prints entire alphabet, lowercase
