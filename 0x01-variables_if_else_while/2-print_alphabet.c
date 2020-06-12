@@ -2,7 +2,7 @@
 /* Main - Primary function being executed
 * a blank line
 * Description: Prints entire alphabet, lowercase
-* Return: returns 0
+* Return: 0
 */
 int main(void)
 {
