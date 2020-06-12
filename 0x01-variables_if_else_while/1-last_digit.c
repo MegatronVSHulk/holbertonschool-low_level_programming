@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-/** Main - The primary function being carried out
+/** 
+ * Main - The primary function being carried out
  * a blank line
  * Description: The integer variable 'n' which is
  * stapled to integer variable RESULT. RESULT is used
