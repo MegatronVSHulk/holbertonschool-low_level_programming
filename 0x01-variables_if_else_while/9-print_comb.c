@@ -8,7 +8,7 @@ int main(void)
 int COUNT;
 for(COUNT = 0; COUNT <= 9; COUNT++)
 {
-putchar(COUNT + '0');
+putchar(''0' + COUNT);
 if(COUNT != 9)
 {
 putchar(',');
