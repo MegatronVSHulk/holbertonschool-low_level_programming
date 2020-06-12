@@ -5,7 +5,6 @@
  * Description: Prints entire alphabet, lowercase
  * Return: returns 0
  */
-
 int main(void)
 {
   char letter;
