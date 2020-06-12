@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /* Main - The primary function being carried out
-(*
+(* a blank line
  * Description: The integer variable 'n' which is
  * stapled to integer variable RESULT. RESULT is used
  * in coordination with the 3 IF/THEN statements that 
@@ -11,9 +11,9 @@
 int main(void)
 {
   int n;
+   int RESULT;
   srand(time(0));
   n = rand() - RAND_MAX / 2;
-  int RESULT;
   RESULT = n % 10;
   printf("The last digit of %d is %d ", n, RESULT);
   if (RESULT > 5)
