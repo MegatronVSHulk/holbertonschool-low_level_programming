@@ -5,8 +5,6 @@
 (* a blank line
  * Description: Integer generated that is sometimes
  * positive and sometimes negative. 
-(* a blank line
- * Return: 0
 **/
 int main(void)
 {
@@ -17,15 +15,11 @@ int main(void)
   {
     printf("%d", n);
     printf(" is zero");
-  }
-  else
-  {
+  } else {
     if (n < 0){
       printf("%d", n);
       printf(" is negative");
-    }
-    else
-    {
+    } else {
       printf("%d", n);
       printf(" is positive\n");
     }
