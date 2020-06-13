@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
-* Main - Generates a random number
+* main - Generates a random number
 * a blank line
 * Description: Integer generated that is sometimes
 * positive and sometimes negative.
