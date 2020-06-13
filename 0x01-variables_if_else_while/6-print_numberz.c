@@ -1,12 +1,12 @@
 #include <stdio.h>
-/*
-* Main - Primary function being executed
-* integer variable number is declared then put
-* through the For loop with an ++ increment.
-* We then use putchar (VAR + '0') which shifts
-* from the ASCII output to the literal output
-* of the integer. It is then printed on console
-**/
+/**
+* main - Primary function being executed
+* a blank line
+* integer variable number is declared
+* Description: counts 0 to 9
+* a blank line
+* Return: returns 0
+*/
 int main(void)
 {
 int number;
