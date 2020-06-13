@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* Main - Primary function being executed
+* main - Primary function being executed
 * a blank line
 * Description: Prints entire alphabet twice, lowercase then uppercase
 * a blank line
