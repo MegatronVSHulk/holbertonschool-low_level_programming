@@ -1,11 +1,11 @@
 #include <stdio.h>
-/*
-* Main - Primary function being executed
-*
+/**
+* main - Primary function being executed
+* a blank line
 * Description: Prints entire alphabet, lowercase, excludes
 * the letter 'e' and 'q' with an IF statement existing within
-* the FOR statement.
-* Return: 0
+* a blank line
+* Return: returns 0
 */
 int main(void)
 {
