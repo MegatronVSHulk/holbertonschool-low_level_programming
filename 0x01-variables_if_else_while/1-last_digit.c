@@ -8,6 +8,7 @@
 * stapled to integer variable RESULT. RESULT is used
 * in coordination with the 3 IF/THEN statements that
 * weight its value against 0, 5, and 6.
+* a blank line
 * Return: 0
 */
 int main(void)
@@ -25,7 +26,7 @@ else if (RESULT == 0)
 {
 printf("The last digit of %d is %d and is 0\n", n, RESULT);
 }
-else if (RESULT < 6 && RESULT != 0)
+else
 {
 printf("The last digit of %d is %d and is less than 6 and not 0\n", n, RESULT);
 }
