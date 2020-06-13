@@ -1,8 +1,10 @@
 #include <stdio.h>
 /**
 * main - Primary function being executed
-*
+* a blank line
 * Description: Prints entire alphabet, lowercase
+* a blank line
+* Return: returns 0
 */
 int main(void)
 {
