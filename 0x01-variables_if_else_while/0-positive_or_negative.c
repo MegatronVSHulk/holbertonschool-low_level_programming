@@ -6,7 +6,8 @@
 * a blank line
 * Description: Integer generated that is sometimes
 * positive and sometimes negative.
-* Return: 0
+* a blank line
+* Return: returns 0
 **/
 int main(void)
 {
@@ -15,18 +16,15 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (n == 0)
 {
-printf("%d", n);
-printf(" is zero");
+printf("%d is zero\n", n);
 }
 else if (n < 0)
 {
-printf("%d", n);
-printf(" is negative");
+printf("%d is negative\n", n);
 }
 else if (n > 0)
 {
-printf("%d", n);
-printf(" is positive\n");
+printf("%d is positive\n", n);
 }
 return (0);
 }
