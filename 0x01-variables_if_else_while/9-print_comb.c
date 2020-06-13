@@ -1,9 +1,11 @@
 #include <stdio.h>
-/*
-* Main - Primary function being executed
-*Description: @COUNT initiates at 0 and is used to count up to 9.
-*Return: 0
-**/
+/**
+* main - Primary function being executed
+* a blank line
+* Description: @COUNT initiates at 0 and is used to count up to 9.
+* a blank line
+* Return: 0
+*/
 int main(void)
 {
 int COUNT;
