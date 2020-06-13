@@ -1,9 +1,8 @@
 #include <time.h>
 #include <stdlib.h>
 #include <stdio.h>
-
-/*
-* Main - The primary function being carried out
+/**
+* main - The primary function being carried out
 * a blank line
 * Description: The integer variable 'n' which is
 * stapled to integer variable RESULT. RESULT is used
@@ -11,7 +10,6 @@
 * weight its value against 0, 5, and 6.
 * Return: 0
 */
-
 int main(void)
 {
 int n;
