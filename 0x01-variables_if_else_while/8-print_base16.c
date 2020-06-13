@@ -1,9 +1,11 @@
 #include <stdio.h>
-/*
-* Main - Primary function being executed
-*
+/**
+* main - Primary function being executed
+* a blank line
 * Description: Prints entire all base 16 numbers from 0 - f in ascending order
-**/
+* a blank line
+* Return: returns 0
+*/
 int main(void)
 {
 int NUMBER;
