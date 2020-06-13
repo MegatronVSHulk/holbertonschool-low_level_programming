@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
 * main - function puts the string to the console
 * a blank line
