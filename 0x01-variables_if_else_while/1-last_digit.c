@@ -5,18 +5,16 @@
 * main - The primary function being carried out
 * a blank line
 * Description: The integer variable 'n' which is
-* stapled to integer variable RESULT. RESULT is used
-* in coordination with the 3 IF/THEN statements that
-* weight its value against 0, 5, and 6.
+* stapled to integer variable RESULT. RESULT is printed.
 * a blank line
-* Return: 0
+* Return: returns 0
 */
 int main(void)
 {
 int n;
 int RESULT;
 srand(time(0));
-n = rand() - RAND_MAX / 2;
+n = rand() - (RAND_MAX / 2);
 RESULT = n % 10;
 if (RESULT > 5)
 {
