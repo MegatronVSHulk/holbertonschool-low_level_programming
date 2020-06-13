@@ -1,15 +1,16 @@
 #include <stdio.h>
-
-/*
-*Main - Primary function being executed
+/**
+* main - Primary function being executed
+* a blank line
 * Description: Integer variable COUNT is declared. COUNT is
 * given initial value of 00. We then start with a For Loop that
 * continues as long as COUNT is less than or equal to 99. There
 * is an IF/ELSE statement that helps determine if another comma
 * and space are needed, or if the program is complete and ready
-* to create a new line upon ending
+* to create a new line upon ending.
+* a blank line
+* Return: returns 0
 */
-
 int main(void)
 {
 int COUNT;
