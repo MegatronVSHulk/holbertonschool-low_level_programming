@@ -1,14 +1,11 @@
 #include<stdio.h>
 /**
- * main - function puts the string to the console
- * @intSize: First operand
- * @charSize: Second operand
- * @LongIntSize: Third operand
- * @LLIS: Forth final operand
- * Description: the function main writes the string into the terminal
- * Return: returns 0
- *
- */
+* main - function puts the string to the console
+* a blank line
+* Description: the function main writes the string into the terminal
+* a blank line
+* Return: returns 0
+*/
 int main(void)
 {
   int intSize;
