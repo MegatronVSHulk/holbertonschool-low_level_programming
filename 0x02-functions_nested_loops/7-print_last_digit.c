@@ -1,10 +1,10 @@
 /**
-* _print_sign - The primary function being carried out
+* print_last_digit - The primary function being carried out
 * a blank line
-* Description: The integer variable 'n' which is
-* stapled to integer variable RESULT. RESULT is printed.
+* Description: The integer variable 'val' which is
+* stapled to integer variable n. last digit is printed.
 * a blank line
-* Return: returns 0
+* Returns: returns @val
 */
 int print_last_digit (int n)
 {
