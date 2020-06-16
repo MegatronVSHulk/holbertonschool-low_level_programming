@@ -4,7 +4,7 @@
 * @n: the integer that is parsed for last number
 * Description: Parses 'n' and returns 'val'
 * a blank line
-* Returns: returns @val
+* Return: returns @val
 */
 int print_last_digit(int n)
 {
