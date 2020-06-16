@@ -4,7 +4,7 @@
 * Description: The integer variable 'val' which is
 * stapled to integer variable n. last digit is printed.
 * a blank line
-* Returns: returns @val
+* Returns: returns val
 */
 int print_last_digit (int n)
 {
