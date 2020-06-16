@@ -7,14 +7,10 @@
 * stapled to integer variable RESULT. RESULT is printed.
 * a blank line
 * Return: returns 0
-*/ 
-int _putchar(char c)
-{
-  return (write(1, &c, 1));
-}
+*/
 int print_last_digit (int n)
 {
-  int val;
-  val = (n % 10);
-  return (val);
+int val;
+val = (n % 10);
+return (val);
 }
