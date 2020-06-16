@@ -2,8 +2,7 @@
 /**
 * print_alphabet - The primary function being carried out
 * a blank line
-* Description: The integer variable 'n' which is
-* stapled to integer variable RESULT. RESULT is printed.
+* Description: The letter variable is incremented until z
 * a blank line
 * Return: returns 0
 */
