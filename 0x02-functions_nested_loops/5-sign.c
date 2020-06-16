@@ -1,15 +1,13 @@
 #include "holberton.h"
 /**
-* _print_sign - The primary function being carried out
+* print_sign - The primary function being carried out
+* @n: integer that is parsed
 * a blank line
-* _putchar - Function for printing characters
+* Description: The integer variable 'n' is parsed
 * a blank line
-* Description: The integer variable 'n' which is
-* stapled to integer variable RESULT. RESULT is printed.
-* a blank line
-* Return: returns 0
+* Return: returns @val
 */ 
-int _print_sign(int n)
+int print_sign(int n)
 {
 int val;
 if (n > 0 && n != 0)
