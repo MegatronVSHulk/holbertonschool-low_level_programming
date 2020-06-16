@@ -2,10 +2,9 @@
 /**
 * print_last_digit - The primary function being carried out
 * @n: the integer that is parsed for last number
-* Description: The integer variable 'val' which is
-* stapled to integer variable n. last digit is printed.
+* Description: Parses 'n' and returns 'val'
 * a blank line
-* Returns: returns val
+* Returns: returns @val
 */
 int print_last_digit(int n)
 {
