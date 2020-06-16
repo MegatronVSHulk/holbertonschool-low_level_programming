@@ -2,8 +2,8 @@
 /**
 * main - The primary function being carried out
 * a blank line
-* Description: The integer variable 'n' which is
-* stapled to integer variable RESULT. RESULT is printed.
+* Description: Creates character array for Holberton
+* then prints it using While loop
 * a blank line
 * Return: returns 0
 */
