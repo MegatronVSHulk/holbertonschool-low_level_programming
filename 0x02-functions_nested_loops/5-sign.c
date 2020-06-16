@@ -15,10 +15,12 @@ int val;
 if (n > 0 && n != 0)
 {
 val = 1;
-} else if (n < 0 && n != 0)
+}
+else if (n < 0 && n != 0)
 {
 val = -1;
-} else
+}
+else
 {
 val = 0;
 }
