@@ -14,10 +14,12 @@ int val;
 if (c > 64 && c < 91)
 { 
 val = 1;
-} else if (c > 96 && < 123)
+}
+else if (c > 96 && c < 123)
 {
 val = 1;
-} else
+}
+else
 {
 val = 0;
 }
