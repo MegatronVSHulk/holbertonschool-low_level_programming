@@ -1,4 +1,4 @@
-#include "_putchar.c"
+#include "holberton.h"
 /**
 * main - The primary function being carried out
 * a blank line
