@@ -1,11 +1,12 @@
 #include "holberton.h"
 /**
 * print_alphabet - The primary function being carried out
+* @c: integer that is parsed
 * a blank line
 * Description: The integer variable 'n' which is
 * stapled to integer variable RESULT. RESULT is printed.
 * a blank line
-* Return: returns 0
+* Return: returns @val
 */
 int _islower(int c)
 {
