@@ -8,19 +8,15 @@
 * a blank line
 * Return: returns 0
 */ 
-int _putchar(char c)
-{
-  return (write(1, &c, 1));
-}
 int main(void)
 {
-  char word[] = "Holberton";
-  int n = 0;
-  while (n < 9)
-    {
-      _putchar(word[n]);
-      n++;
-    }
-  _putchar('\n');
-  return (0);
+char word[] = "Holberton";
+int n = 0;
+while (n < 9)
+{
+_putchar(word[n]);
+n++;
+}
+_putchar('\n');
+return (0);
 }
