@@ -24,5 +24,4 @@ _putchar('\n');
 count++;
 letter = 'a';
 }
-return (0);
 }
