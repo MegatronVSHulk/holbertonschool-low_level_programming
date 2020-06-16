@@ -1,3 +1,4 @@
+#include "holberton.h"
 /**
 * print_last_digit - The primary function being carried out
 * a blank line
