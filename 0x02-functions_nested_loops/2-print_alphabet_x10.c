@@ -7,7 +7,7 @@
 * a blank line
 * Return: returns 0
 */
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
 char letter;
 int count;
