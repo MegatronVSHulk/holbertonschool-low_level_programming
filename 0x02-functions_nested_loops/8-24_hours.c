@@ -24,6 +24,7 @@ _putchar(':');
 d = m / 10;
 _putchar('0' + d);
 d = m % 10;
+_putchar('\n');
 m++;
 }
 h++
