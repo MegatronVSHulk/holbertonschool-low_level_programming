@@ -20,6 +20,7 @@ d = h / 10;
 _putchar('0' + d);
 d = h % 10;
 _putchar('0' + d);
+_putchar(':');
 d = m / 10;
 _putchar('0' + d);
 d = m % 10;
