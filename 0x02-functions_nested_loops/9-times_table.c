@@ -6,28 +6,40 @@
 */
 void times_table(void)
 {
-int val, cnt, mult, ten, one;
-for (mult = 0; mult <= 9; mult++)
+int l;
+int c;
+int r;
+int d;
+l = 0;
+while (l <= 9);
 {
-val = 0;
-for (cnt = 0; cnt <= 9; cnt++)
+c = 0;
+while (c < 10)
+{ 
+r = l * c;
+if (r < 10)
 {
-ten = val / 10;
-one = val % 10;
-if (cnt < 9 && val <= 9)
-{
-_putchar(one + '0');
-_putchar(',');
 _putchar(' ');
-_putchar(' ');
-val = val + mult;
-} else if (cnt < 9 && val > 9)
+}
+else
 {
-_putchar(ten + '0');
-_putchar(one + '0');
-_putchar('$');
+d = r / 10;
+_putchar('0' + d);
+}
+d = r / 10;
+_putchar('0' + d);
+d = r % 10;
+_putchar('0' + d);
+if (c == 9)
+{
 _putchar('\n');
 }
+else
+{
+putchar(' ');
 }
+c++
+}
+l++;
 }
 }
