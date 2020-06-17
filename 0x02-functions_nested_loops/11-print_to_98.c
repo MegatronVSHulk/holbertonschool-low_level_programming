@@ -3,6 +3,9 @@
 /**
 * print_to_98 - The primary function being carried out
 * @n: is parsed and prints difference from 'n' to 98
+* @isPositive: determine if positive
+* @difference: determine difference between 2 inputs
+* @actual: actual difference weighed
 * a blank line
 * Description: Function takes input, print input - 98
 * a blank line
