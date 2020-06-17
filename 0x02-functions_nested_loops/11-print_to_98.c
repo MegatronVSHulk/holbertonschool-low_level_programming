@@ -24,7 +24,7 @@ difference--;
 }
 }
 if (n > 0 && n < 98)
-difference = 98 - n;
+difference = n;
 {
 while (difference < 98)
 {
