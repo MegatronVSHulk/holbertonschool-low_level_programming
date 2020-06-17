@@ -14,6 +14,15 @@ int isPositive;
 int difference;
 int actual;
 printf("%d, ", n);
+if (n > 98)
+{
+difference = n;
+while (difference > 98)
+{
+printf("%d, ", difference);
+difference--;
+}
+}
 if (n > 0 && n < 98)
 difference = 98 - n;
 {
