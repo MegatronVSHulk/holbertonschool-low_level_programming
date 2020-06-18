@@ -1,8 +1,6 @@
 #include "holberton.h"
 /**
-* print_most_numbers - The primary function being carried out
-* @num: Character array
-* @count: Counter integer
+* print_diagonal - The primary function being carried out
 * a blank line
 * Return: returns 0
 */
