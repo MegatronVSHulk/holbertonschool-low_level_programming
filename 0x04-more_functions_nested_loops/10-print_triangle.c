@@ -8,7 +8,7 @@
 void print_triangle(int size)
 {
   int height;
-  int length;  
+  int length;
   int noSpaces;
   int noBlocks;
   length = 1;
