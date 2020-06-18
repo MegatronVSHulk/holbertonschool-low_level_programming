@@ -8,26 +8,26 @@
 */
 void print_square(int size)
 {
-  int lineCount;
-  int space;
-  space = size;
-  lineCount = 0;
-  if (size > 0)
-    {
-  while (lineCount < size)
-    {
-      while (space > 0)
-	{
-	  _putchar('#');
-	 space--;
-	 }
-      space = size;
-      _putchar('\n');
-      lineCount++;
-     }
-    }
-  else
-    {
-      _putchar('\n');
-    }
+int lineCount;
+int space;
+space = size;
+lineCount = 0;
+if (size > 0)
+{
+while (lineCount < size)
+{
+while (space > 0)
+{
+_putchar('#');
+space--;
+}
+space = size;
+_putchar('\n');
+lineCount++;
+}
+}
+else
+{
+_putchar('\n');
+}
 }
