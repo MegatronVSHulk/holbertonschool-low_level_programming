@@ -1,6 +1,7 @@
 #include "holberton.h"
 /**
-* print_squares - The primary function being carried out
+* print_square - The primary function being carried 
+* @size: Integer being carried over
 * a blank line
 * Return: returns 0
 */
