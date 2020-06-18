@@ -21,20 +21,20 @@ ticker_three++;
 ticker_five++;
 if (ticker_three == 3 && ticker_five == 5)
 {
-printf("FizzBuzz ");
+printf("FizzBuzz");
 should_print++;
 ticker_three = 0;
 ticker_five = 0;
 }
 if (ticker_three == 3 && ticket_five != 5)
 {
-printf("Fizz ");
+printf("Fizz");
 should_print++;
 ticker_three = 0;
 }
 if (ticker_five == 5 && ticker_three != 3)
 {
-printf("Buzz ");
+printf("Buzz");
 should_print++;
 ticker_five = 0;
 }
