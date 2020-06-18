@@ -21,9 +21,9 @@ num2 = ((num / 10) + '0');
 if (num >= 9)
 {
 _putchar(num2);
-}  
+}
 _putchar(num1);
-num++;  
+num++;
 }
 if (num >= 14)
 {
