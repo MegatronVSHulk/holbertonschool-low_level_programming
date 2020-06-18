@@ -8,29 +8,29 @@
 */
 void print_diagonal(int n)
 {
-  int lineCount;
-  int space;
-  space = 0;
-  lineCount = 0;
-  if (n > 0)
-    {
-  while (lineCount < n)
-    {
-      while (space <= lineCount)
-	{
-	  _putchar(' ');
-	 space++;
-	 }
-      space = 0;
-      _putchar('\\');
-      _putchar('$');
-      _putchar('\n');
-      lineCount++;
-    }
-    }
-  else
-    {
-      _putchar('$');
-      _putchar('\n');
-    }
+int lineCount;
+int space;
+space = 0;
+lineCount = 0;
+if (n > 0)
+{
+while (lineCount < n)
+{
+while (space <= lineCount)
+{
+_putchar(' ');
+space++;
+}
+space = 0;
+_putchar('\\');
+_putchar('$');
+_putchar('\n');
+lineCount++;
+}
+}
+else
+{
+_putchar('$');
+_putchar('\n');
+}
 }
