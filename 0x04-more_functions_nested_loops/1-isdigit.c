@@ -7,15 +7,15 @@
 */
 int _isdigit(int c)
 {
-  int val;
-  val = c;
-  if (val <= 57 && val >= 48)
-    {
-      val = 1;
-    }
-  else
-    {
-      val = 0;
-    }
-  return (val);
+int val;
+val = c;
+if (val <= 57 && val >= 48)
+{
+val = 1;
+}
+else
+{
+val = 0;
+}
+return (val);
 }
