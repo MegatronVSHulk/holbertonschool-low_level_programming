@@ -38,4 +38,5 @@ printf("%d ", current_number);
 current_number++;
 }
 printf("\n");
+  rwturn (0);
 }
