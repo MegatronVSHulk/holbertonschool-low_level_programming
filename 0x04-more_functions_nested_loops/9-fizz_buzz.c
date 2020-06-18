@@ -14,7 +14,7 @@ should_print = 0;
 ticker_three = 0;
 ticker_five = 0;
 current_number = 1;
-while (current_number < 101)
+while (current_number <= 100)
 {
 should_print = 0;
 ticker_three++;
@@ -40,8 +40,9 @@ ticker_five = 0;
 }
 if (should_print == 0)
 {
-printf("%d ", current_number);
+printf("%d", current_number);
 }
+printf(" ");
 current_number++;
 }
 printf("\n");
