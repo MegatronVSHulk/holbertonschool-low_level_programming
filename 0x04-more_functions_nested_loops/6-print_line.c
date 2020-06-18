@@ -7,11 +7,11 @@
 */
 void print_line(int c)
 {
-  while (c > 0)
-    {
-      _putchar('_');
-      c--;
-    }
-  _putchar('?');
-  _putchar('\n');
+while (c > 0)
+{
+_putchar('_');
+c--;
+}
+_putchar('?');
+_putchar('\n');
 }
