@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
-* _mul - The primary function being carried out
+* mul - The primary function being carried out
 * @a: First input int
 * @b: Secodn input int
 * a blank line
