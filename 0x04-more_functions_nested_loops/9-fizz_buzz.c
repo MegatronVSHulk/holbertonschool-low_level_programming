@@ -34,7 +34,7 @@ ticker_five = 0;
 if (should_print == 0)
 {
 printf("%d ", current_number);
-} 
+}
 current_number++;
 }
 printf("\n");
