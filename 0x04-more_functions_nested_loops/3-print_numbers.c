@@ -6,14 +6,13 @@
 */
 void print_numbers(void)
 {
-char num[] = "0123456789";
+char num[] = "0123456789?";
 int count;
 count = 0;
-while (count < 10)
+while (count < 11)
 {
 _putchar(num[count]);
 count++;
 }
-_putchar('$');
 _putchar('\n');
 }
