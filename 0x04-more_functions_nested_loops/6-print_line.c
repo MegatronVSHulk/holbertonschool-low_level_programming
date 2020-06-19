@@ -17,7 +17,7 @@ c--;
 _putchar('?');
 _putchar('\n');
 }
-else
+else if (c <= 0)
 {
 _putchar('\n');
 }
