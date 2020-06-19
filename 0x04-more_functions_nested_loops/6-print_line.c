@@ -14,10 +14,11 @@ while (c > 0)
 _putchar('_');
 c--;
 }
+_putchar('?');
+_putchar('\n');
 }
 else
 {
-}
-_putchar('?');
 _putchar('\n');
+}
 }
