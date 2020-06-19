@@ -1,7 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <limits.h>
-#include <float.h>
 /**
 * main - the primary function being ecexuted
 * divide3 - returns Y if divisible by 3, returns N if not
