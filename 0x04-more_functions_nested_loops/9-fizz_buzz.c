@@ -26,7 +26,7 @@ should_print++;
 ticker_three = 0;
 ticker_five = 0;
 }
-if (ticker_three == 3 && ticket_five != 5)
+if (ticker_three == 3 && ticker_five != 5)
 {
 printf("Fizz");
 should_print++;
@@ -46,5 +46,5 @@ printf(" ");
 current_number++;
 }
 printf("\n");
-  rwturn (0);
+return (0);
 }
