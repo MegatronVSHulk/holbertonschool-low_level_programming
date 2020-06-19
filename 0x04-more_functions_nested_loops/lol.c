@@ -24,7 +24,8 @@ int divide3(double n)
   asInt = (int)placeholder;                                                                                          
   placeholder_end = placeholder - asInt;
   printf("Result is %f\n", placeholder_end);                                                   
-  if (placeholder_end == 0.0f)                                                                                           {
+  if (placeholder_end == 0.0f)                                                                                           
+  {
     printf("Buzz");                                                                                          
     yes_no = 1;
   }
