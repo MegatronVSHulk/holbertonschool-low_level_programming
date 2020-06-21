@@ -1,6 +1,7 @@
 #include "holberton.h"
 /**
 * print_diagonal - The primary function being carried out
+* @n: number of lines to print
 * a blank line
 * Return: returns 0
 */
