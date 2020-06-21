@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
-* print_most_numbers - The primary function being carried out
+* print_triangles - The primary function being carried out
 * @size: Integer being passed on
 * a blank line
 * Return: returns 0
