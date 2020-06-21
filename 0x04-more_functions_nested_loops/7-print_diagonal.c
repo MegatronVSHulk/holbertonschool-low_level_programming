@@ -27,7 +27,6 @@ lineCount++;
 }
 else
 {
-_putchar('$');
 _putchar('\n');
 }
 }
