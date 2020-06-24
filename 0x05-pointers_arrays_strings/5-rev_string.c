@@ -7,11 +7,14 @@
 */
 void rev_string(char *s)
 {
-int ticker = 0;
-int ticker2 = 0;
-char stg[10];
-while (s[ticker] != '\0')
-{
-ticker++;
+int length;
+length = _strlen(s);
+for (c = 0; c < length/2; c++)
+{     
+temp = *end;
+*end = *begin;
+*begin = temp;
+begin++;
+end--;
 }
 }
