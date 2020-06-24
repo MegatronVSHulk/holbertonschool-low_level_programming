@@ -12,7 +12,8 @@ while (s[ticker] != '\0')
 {
 ticker++;
 }
-while (ticker > 0)
+ticker--;
+while (ticker >= 0)
 {
 _putchar(s[ticker]);
 ticker--;
